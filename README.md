@@ -50,32 +50,25 @@ Features that will be implemented in future:
 
 Technologies used:
 
-* [W3schools](https://www.w3schools.com/).
-* W3schools was used to find hexadecimal colours to use for the site, as well as assisting with debugging code.
+* [W3schools](https://www.w3schools.com/) was used to find hexadecimal colours to use for the site, as well as assisting with debugging code.
 
-* [Bootstrap](https://getbootstrap.com/).
-* Bootstrap was used as a CDN, and styles most of the site.
+* [Bootstrap](https://getbootstrap.com/) was used as a CDN, and styles most of the site.
 
-* [Font Awesome](https://fontawesome.com/start).
-* Font Awesome was used to provide the menu icon in the header.
+* [Font Awesome](https://fontawesome.com/start) was used to provide the menu icon in the header.
 
-* [Google fonts](https://fonts.google.com/).
-* Google fonts provided the fonts for the site.
+* [Google fonts](https://fonts.google.com/) provided the fonts for the site.
 
-* [HTML](https://html.com/).
-* Used to code the divs, text and other elements on the site, as well as providing meta tags.
+* [HTML](https://html.com/) was used to code the  elements on the site, as well as providing meta tags.
 
-* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
-* CSS was used to style the elements in the site.
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) was used to style the elements in the site.
 
-* [Cloud9 (AWS)](https://aws.amazon.com/cloud9/).
-* Cloud9 was where the site’s code was written and stored. 
+* [Cloud9 (AWS)](https://aws.amazon.com/cloud9/) was used to write the site's code.
 
-* [Github](https://github.com/).
-* Github was used to host the code and act as a repository and backup for the written code.
+* [Gitpod](https://gitpod.io) was used to continue working on the site after it was submitted in december.
 
-* [Logomakr](https://logomakr.com/).
-* Logomakr was used to design the C&C logo.
+* [Github](https://github.com/) was used to host the code and act as a repository and backup for the written code.
+
+* [Logomakr](https://logomakr.com/) was used to design the C&C logo.
 
 Testing:
 --------
@@ -133,19 +126,18 @@ Deployment:
 
 This project is hosted on github pages. At the time of the submission of this README (20th of December, 2019), the deployed version and the development version are the same, with the same code and the same README. If this changes in the future, this README will be updated.
 
-The code can be run locally either by visiting the website directly through the URL [https://felix-redwood.github.io/Characters_-_Creation/](https://felix-redwood.github.io/Characters_-_Creation/) or by viewing the project in [github](https://github.com/Felix-Redwood/Characters_-_Creation) and copying and pasting the code into a program that will run it.
+The code can be run locally either by visiting the website directly through the URL [https://felix-redwood.github.io/Characters_-_Creation/](https://felix-redwood.github.io/Characters-Creation/) or by viewing the project in [github](https://github.com/Felix-Redwood/Characters-Creation) and copying and pasting the code into a program that will run it.
+
+An important fact about the deployment of this project is that this repository is NOT the original repository for this project. The original repository has been deleted, as it contained commits that contained sensitive information. This new repository is a clone of the old one, and will contain all future commits for the project.
 
 FAQ:
 ----
 
 Q: Will you keep working on the site?  
-A: Yes! There are a lot of additions to the site I plan to make.
+A: Yes, there are a lot of additions to the site I plan to make.
 
 Q: Why don’t you have proper statistics or descriptions of rules, etc?  
 A: This site is generally designed for newer players or DMs, and focuses more on the descriptions, aesthetics and roles of the different races and classes instead of their mechanics or statistics. This is so that newer players/DMs don’t get overwhelmed by the amount of information thrown their way.
-
-Q: Are you on social media?  
-A: Not yet. At the moment I’m going through some lifestyle changes and focusing on a couple of other projects. For this reason, characters & creation has no social media accounts as I couldn’t ensure regular posting. I think that in the future I’ll create a Twitter account and a Facebook page for C&C. When I do, I’ll put links in the footer of the site.
 
 Credits:
 --------
@@ -154,7 +146,6 @@ Content:
 
 * The text for the page ‘Feats’ was copied from [http://www.jsigvard.com/dnd/Feats.html](http://www.jsigvard.com/dnd/Feats.html)
 * The information about D&D races and classes came from the ‘[5e character](https://play.google.com/store/apps/details?id=com.dungeon.dev.a5echaracter&hl=en_US)’ app by Dungeon Dev on the Google Play store.
-* The base code and classes were taken from the Code Institute Whiskey Drop site that I was helped to build.
 
 Media:
 
