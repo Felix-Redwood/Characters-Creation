@@ -1,15 +1,6 @@
+/* Styling for the <body> element, and any reoccuring, non-specific elements */
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.col-12 {
-    padding: 0;
-    margin: 0;
-}
-
-.container-fluid {
-    margin: 0;
-    padding: 0;
 }
 
 .logo {
@@ -18,11 +9,6 @@ body {
 
 .container-wrapper {
     width: 100%;
-}
-
-.container-wrapper--red {
-    background-color: #f05f40;
-    color: white;
 }
 
 .callout-container {
