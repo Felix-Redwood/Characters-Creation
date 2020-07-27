@@ -36,7 +36,6 @@ Existing features:
 * List of all Feats from the PHB (the player’s handbook, the official basic source material for 5th edition D&D).
 * Easy navigation between pages.
 * Link to WOTC in footer (wizards of the coast, the owners of the D&D 5th edition material).
-* Link to my email (felix@grahamredwood.com) in footer, so that people can send in suggestions.
 * Meta tags in the <head> element for the purposes of SEO.
 * Favicon used to increase user experience and help the user distinguish the tab that C&C is being run on.
 
