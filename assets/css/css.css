@@ -1,0 +1,290 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 40px;
+}
+
+.container-wrapper {
+    width: 100%;
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.callout-container {
+    height: 100vh;
+    width: 100%;
+
+    background: url(../images/mainpageimage.jpg) no-repeat top right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.description-container-brown {
+    background-color: #968D81;
+    color: #e6e6e6;
+}
+
+.description-container-grey {
+    background-color: #e6e6e6;
+    color: #000;
+}
+
+/* Page Header */
+
+.page-header {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.page-header h2 {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.main-links .page-header {
+    margin-bottom: 25px;
+}
+
+.main-links div {
+    text-align: center;
+}
+
+.dropdown-menu {
+    list-style: none;
+}
+
+.top-nav {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-menu {
+    width: 60px;
+    background-color: #737373;
+}
+
+/* Page Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+#footer-details div p {
+    text-align: justify;
+}
+
+/*Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Content Containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+#navbarNavDropdown {
+    position: relative;
+    left: 0px;
+    
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px !important;
+    padding-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 906px) {
+    .jumbotron-header {
+        padding-top: 90px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .jumbotron-header {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Descriptions */
+
+.description-text {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.description-text i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.description-text p {
+    margin-left: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Main page links */
+
+.main-links-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.home-rcf {
+    background-color: #525252;
+    color: #fafafa;
+    margin: 0;
+}
+
+.main-links-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-links-text a:hover {
+    color: #4d2600;
+    -webkit-transition: color 0.5s ease-in-out;
+    -ms-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+/* Email */
+
+.green-link {
+    text-decoration: none;
+    color: #194d19;
+}
+
+
