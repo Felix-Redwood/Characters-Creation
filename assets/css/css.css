@@ -50,13 +50,11 @@ body {
 /* Page Header */
 
 .page-header {
-    margin-left: 20px;
     text-align: left;
 }
 
 .page-header h2 {
-    margin-top: 0;
-    margin-left: 20px;
+    margin-top: 0.5em;
     margin-right: 0;
     padding-right: 0;
 }
