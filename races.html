@@ -2,780 +2,938 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dungeons & Dragons help">
-    <meta name="keywords" content="D&D,Classes,Races,Feats,Role-Play,Tabletop-gaming">
-    <meta name="author" content="Felix Redwood">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <title>Characters & Creation - Learn how to create your character today!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/904876a056.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Dungeons & Dragons help">
+	<meta name="keywords" content="D&D,Classes,Races,Feats,Role-Play,Tabletop-gaming">
+	<meta name="author" content="Felix Redwood">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" type="image/png" href="assets/images/logo.png">
+	<title>Characters & Creation - Learn how to create your character today!</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/904876a056.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/css/css.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/css.css" type="text/css" />
 
 </head>
 
 <body>
-    <div class="container-fluid navalert-container">
-        <nav class="navbar navbar-dark navbar-expand-sm sticky-top top-nav">
-            <a href="index.html">
-                <img src="assets/images/logo.png" class="logo" alt="site_logo"/>
+	<div class="container-fluid navalert-container">
+		<nav class="navbar navbar-dark navbar-expand-sm sticky-top top-nav">
+			<a href="index.html">
+				<img src="assets/images/logo.png" class="logo" alt="site_logo"/>
             </a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-lable="toggleNavigation">
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-lable="toggleNavigation">
             <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-bars"></i>
-                    </a>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-bars"></i>
+							</a>
 
-                        <div class="dropdown-menu header-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <!--class is dropdown-menu-right so that the menu doesn't appear slightly offscreen-->
-                            <a href="index.html" class="dropdown-item">Home</a>
-                            <div class="dropdown-divider"></div>
-                            <a href="classes.html" class="dropdown-item">Classes</a>
-                            <a href="races.html" class="dropdown-item">Races</a>
-                            <a href="feats.html" class="dropdown-item">Feats</a>
-                        </div>
+							<div class="dropdown-menu header-menu dropdown-menu-right"
+								aria-labelledby="navbarDropdownMenuLink">
+								<!--class is dropdown-menu-right so that the menu doesn't appear slightly offscreen-->
+								<a href="index.html" class="dropdown-item">Home</a>
+								<div class="dropdown-divider"></div>
+								<a href="classes.html" class="dropdown-item">Classes</a>
+								<a href="races.html" class="dropdown-item">Races</a>
+								<a href="feats.html" class="dropdown-item">Feats</a>
+							</div>
 
-                    </li>
-                </ul>
+						</li>
+					</ul>
 
-            </div>
-        </nav>
-    </div>
+				</div>
+		</nav>
+	</div>
 
-    <!--main page description-->
-    <div class="container-fluid callout-container">
-        <div class="opaque-overlay">
-            <div class="row">
-                <div class="col-12" style="padding-left: 0; padding-right: 0;">
-                    <section class="callout jumbotron text-center">
-                        <h1 class="jumbotron-header">Races</h1>
-                        <hr class="block-divider block-divider--white">
-                        <p class="lead">Will you be a simple human, a hulking goliath or a cunning gnome? Choose your race here!</p>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/main page description-->
+	<!--main page description-->
+	<div class="container-fluid callout-container">
+		<div class="opaque-overlay">
+			<div class="row">
+				<div class="col-12" style="padding-left: 0; padding-right: 0;">
+					<section class="callout jumbotron text-center">
+						<h1 class="jumbotron-header">Races</h1>
+						<hr class="block-divider block-divider--white">
+						<p class="lead">Will you be a simple human, a hulking goliath or a cunning gnome? Choose your
+							race here!</p>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/main page description-->
 
-    <!--C&C description-->
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Aarakocra:</h2>
-                </div>
-            </div>
+	<!--C&C description-->
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Aarakocra:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>One of the few flying player races, the aarakocra are sprightly, wise birdfolk, who sequester themselves atop the branches of tall trees in small, travelling tribes. As a race, they are communal in their efforts, and simple in
-                            their wants. </p>
-                        <p>While the aarakocra aren’t the strongest race, or the most magically powerful, their flight sets them apart from the other races. Once they’re in the air, they’re a sight to behold. The ability to fly over the fight, casting spells
-                            and dropping javelins from above, can turn the tide of any battle. That being said, they’re practically useless in a dungeon or cave, especially considering their race’s extreme claustrophobia. </p>
-                        <p>Aarakocra make powerful monks, rangers, fighters (especially archery or gun based) and rogues. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Aasimar:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>One of the few flying player races, the aarakocra are sprightly, wise birdfolk, who sequester
+						themselves atop the branches of tall trees in small, travelling tribes. As a race, they are
+						communal in their efforts, and simple in
+						their wants. </p>
+					<p>While the aarakocra aren’t the strongest race, or the most magically powerful, their flight sets
+						them apart from the other races. Once they’re in the air, they’re a sight to behold. The ability
+						to fly over the fight, casting spells
+						and dropping javelins from above, can turn the tide of any battle. That being said, they’re
+						practically useless in a dungeon or cave, especially considering their race’s extreme
+						claustrophobia. </p>
+					<p>Aarakocra make powerful monks, rangers, fighters (especially archery or gun based) and rogues.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Aasimar:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Humans born of divine blood, the aasimar boast gods, demi-gods or angels as their ancestors. While they can easily pass as human, they bare traits that clearly signal their celestial heritage. Depending on their alignment, aasimar
-                            range from being able to sprout luminous wings from their back and take flight, to being able to channel necrotic energy into their attacks, withering away their enemies with each strike. </p>
-                        <p>The aasimar, with their strong will and fighter’s spirit, are best for playing sorcerers, fighters, warlocks and paladins. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Bugbear:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Humans born of divine blood, the aasimar boast gods, demi-gods or angels as their ancestors.
+						While they can easily pass as human, they bare traits that clearly signal their celestial
+						heritage. Depending on their alignment, aasimar
+						range from being able to sprout luminous wings from their back and take flight, to being able to
+						channel necrotic energy into their attacks, withering away their enemies with each strike. </p>
+					<p>The aasimar, with their strong will and fighter’s spirit, are best for playing sorcerers,
+						fighters, warlocks and paladins. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Bugbear:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>The largest of the three goblinoid races, bugbears demonstrate an imposing visage. They have the tactical prowess of their goblin and hobgoblin brothers, but are also able to utilise their strength and might in a pinch. The combination
-                            of these two factors make bugbears fearsome foes, but strong allies. </p>
-                        <p>As well as their great strength, bugbears gain an improved carrying capacity, a longer reach with melee weapons and the ability to sneak attack. </p>
-                        <p>Due to their mixture of cunning and strength, bugbears tend to end up as fighters, rogues, barbarians or warlocks. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Centaur:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>The largest of the three goblinoid races, bugbears demonstrate an imposing visage. They have the
+						tactical prowess of their goblin and hobgoblin brothers, but are also able to utilise their
+						strength and might in a pinch. The combination
+						of these two factors make bugbears fearsome foes, but strong allies. </p>
+					<p>As well as their great strength, bugbears gain an improved carrying capacity, a longer reach with
+						melee weapons and the ability to sneak attack. </p>
+					<p>Due to their mixture of cunning and strength, bugbears tend to end up as fighters, rogues,
+						barbarians or warlocks. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Centaur:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Creatures from the myths of old, a centaur is a horse from the waist down and a human from the waist up. They are warriors, usually living in the forest, and aren’t often seen amongst civilisation. A centaur gains the cunning and
-                            dexterity of a humanoid, but the speed and strength of a horse. </p>
-                        <p>Centaurs have an affinity for nature and the forest, celebrating the chaos of nature and the beauty of life. Often they live in small packs, separate from the rest of the world, even living away from the forest civilisations themselves.
-                        </p>
-                        <p>Due to their wisdom and strength, centaurs tend to be druids, fighters, clerics or barbarians. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Changeling:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Creatures from the myths of old, a centaur is a horse from the waist down and a human from the
+						waist up. They are warriors, usually living in the forest, and aren’t often seen amongst
+						civilisation. A centaur gains the cunning and
+						dexterity of a humanoid, but the speed and strength of a horse. </p>
+					<p>Centaurs have an affinity for nature and the forest, celebrating the chaos of nature and the
+						beauty of life. Often they live in small packs, separate from the rest of the world, even living
+						away from the forest civilisations themselves.
+					</p>
+					<p>Due to their wisdom and strength, centaurs tend to be druids, fighters, clerics or barbarians.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Changeling:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Changelings rarely have civilisations of their own, instead living amongst others in disguise. Their innate ability to not only change their appearance, but also their physical form itself can be used for evil or good. Some changelings
-                            are tricksters or criminals, swindling their targets and, when pursued, slipping into a back alley and donning the visage of a common street urchin, asleep by a bin. Others may live simple lives, either amongst a small circle
-                            of friends who know their secret or as a traveller, who might utilise their illusory nature to entertain. </p>
-                        <p>In their natural form, changelings are generally pale, slender and average height. They may sport grey hair and eyes as well and have a fluid relationship to gender, which they can change at will. </p>
-                        <p>As a changeling, you gain the ability to change your appearance at will, although you are unable to change your height or clothes. You also gain an alternate persona that you have mastered and can use to deceive others. </p>
-                        <p>As charismatic creatures with innate deceptive ability, changelings work best as sorcerers, bards, rogues, paladins and warlocks. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Dragonborn:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Changelings rarely have civilisations of their own, instead living amongst others in disguise.
+						Their innate ability to not only change their appearance, but also their physical form itself
+						can be used for evil or good. Some changelings
+						are tricksters or criminals, swindling their targets and, when pursued, slipping into a back
+						alley and donning the visage of a common street urchin, asleep by a bin. Others may live simple
+						lives, either amongst a small circle
+						of friends who know their secret or as a traveller, who might utilise their illusory nature to
+						entertain. </p>
+					<p>In their natural form, changelings are generally pale, slender and average height. They may sport
+						grey hair and eyes as well and have a fluid relationship to gender, which they can change at
+						will. </p>
+					<p>As a changeling, you gain the ability to change your appearance at will, although you are unable
+						to change your height or clothes. You also gain an alternate persona that you have mastered and
+						can use to deceive others. </p>
+					<p>As charismatic creatures with innate deceptive ability, changelings work best as sorcerers,
+						bards, rogues, paladins and warlocks. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Dragonborn:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Dragonborn, although not technically half-dragons, combine traits of both humans and dragons. They tend towards the extremes of good and evil. Whichever path they choose, they all share certain abilities. A dragonborn can emit
-                            a powerful breath weapon, determined by their ancestry, which can take the form of acid, lightning, fire, cold or poison. </p>
-                        <p>Dragonborn are strong of body and of will. They get bonuses to charisma and strength and therefore function best as paladins, warlocks (especially melee focused) and combat-focused bards. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Dwarf:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Dragonborn, although not technically half-dragons, combine traits of both humans and dragons.
+						They tend towards the extremes of good and evil. Whichever path they choose, they all share
+						certain abilities. A dragonborn can emit
+						a powerful breath weapon, determined by their ancestry, which can take the form of acid,
+						lightning, fire, cold or poison. </p>
+					<p>Dragonborn are strong of body and of will. They get bonuses to charisma and strength and
+						therefore function best as paladins, warlocks (especially melee focused) and combat-focused
+						bards. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Dwarf:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Dwarves are a people of tradition, living underground, content with a lifestyle of mining, adventuring and spending time with their family. They’re short and stubby, standing between 4 and 5 feet tall, but generally weigh as much
-                            as the larger-sized humans. They’re naturally resistant to poison and are trained with weapons from their youth. </p>
-                        <p>Dwarves are wise and strong, and the majority of them exist peacefully on the border between the surface and the depths. There are, however, a small group of dwarves, known as the duregar, who make slaves, indiscriminately, of
-                            other races and can turn invisible and increase their size at will (duregar aren’t a core race, and you should consult your DM if you intend to play one). </p>
-                        <p>As strong, durable people with a natural affinity for wielding weapons, dwarves are most powerful as fighters, paladins, barbarians and rangers. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Elf:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Dwarves are a people of tradition, living underground, content with a lifestyle of mining,
+						adventuring and spending time with their family. They’re short and stubby, standing between 4
+						and 5 feet tall, but generally weigh as much
+						as the larger-sized humans. They’re naturally resistant to poison and are trained with weapons
+						from their youth. </p>
+					<p>Dwarves are wise and strong, and the majority of them exist peacefully on the border between the
+						surface and the depths. There are, however, a small group of dwarves, known as the duregar, who
+						make slaves, indiscriminately, of
+						other races and can turn invisible and increase their size at will (duregar aren’t a core race,
+						and you should consult your DM if you intend to play one). </p>
+					<p>As strong, durable people with a natural affinity for wielding weapons, dwarves are most powerful
+						as fighters, paladins, barbarians and rangers. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Elf:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Unlike the rugged dwarves, elves are slender and graceful, with soft features and deeply coloured eyes. While they look simply like quite beautiful humans, and stand at a similar height, elves are primarily set apart by their lifespans.
-                            The average elf can live well over 700 years, meaning that, even in middle age, an elf will have seen and participated in how history has been written. </p>
-                        <p>Elves are often creatures of nature, and dwell in small forest villages, creating great art for a living. Sometimes, they may breed with humans to create half-elves, and often will have many careers across their lifespan, becoming
-                            a master of all trades by the time of their demise. </p>
-                        <p>Elves have many heritages, and are almost as versatile as humans. Some classes that elves are suited for include; bards, rangers, rogues, fighters, clerics and artificers. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Firbolg:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Unlike the rugged dwarves, elves are slender and graceful, with soft features and deeply coloured
+						eyes. While they look simply like quite beautiful humans, and stand at a similar height, elves
+						are primarily set apart by their lifespans.
+						The average elf can live well over 700 years, meaning that, even in middle age, an elf will have
+						seen and participated in how history has been written. </p>
+					<p>Elves are often creatures of nature, and dwell in small forest villages, creating great art for a
+						living. Sometimes, they may breed with humans to create half-elves, and often will have many
+						careers across their lifespan, becoming
+						a master of all trades by the time of their demise. </p>
+					<p>Elves have many heritages, and are almost as versatile as humans. Some classes that elves are
+						suited for include; bards, rangers, rogues, fighters, clerics and artificers. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Firbolg:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Caretakers of the land, a Firbolg’s day is best spent sitting on a lichen-infested branch and watching the fish swim gently downstream as the sun rises and sets. Firbolg aren’t lazy and they aren’t cowards, instead they are a simple
-                            people, content with their lives. </p>
-                        <p>The firbolg are natural druids, with innate abilities granted to them by nature, such as the ability to momentarily turn invisible or to disguise themselves to fit in with city-dwellers. </p>
-                        <p>While firbolg are creatures of the forest, they are also related to the giants, and stand between 7 and 8 feet tall! While they are wise and gentle, an angered firbolg stands as a fearsome enemy to have. </p>
-                        <p>With their wisdom and strength, firbolg shine best as druids, however they are also suitable to be clerics, fighters and paladins. Firbolg barbarians are almost unheard of, meaning that playing one (while difficult) can add a lot
-                            of flavour to a campaign. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Genasi:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Caretakers of the land, a Firbolg’s day is best spent sitting on a lichen-infested branch and
+						watching the fish swim gently downstream as the sun rises and sets. Firbolg aren’t lazy and they
+						aren’t cowards, instead they are a simple
+						people, content with their lives. </p>
+					<p>The firbolg are natural druids, with innate abilities granted to them by nature, such as the
+						ability to momentarily turn invisible or to disguise themselves to fit in with city-dwellers.
+					</p>
+					<p>While firbolg are creatures of the forest, they are also related to the giants, and stand between
+						7 and 8 feet tall! While they are wise and gentle, an angered firbolg stands as a fearsome enemy
+						to have. </p>
+					<p>With their wisdom and strength, firbolg shine best as druids, however they are also suitable to
+						be clerics, fighters and paladins. Firbolg barbarians are almost unheard of, meaning that
+						playing one (while difficult) can add a lot
+						of flavour to a campaign. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Genasi:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Born of the elemental planes, the four subraces of genasi each represent an element, be it fire, water, earth or air. Their personalities are affected by their elemental heritage, as are their appearances. Fire genasi are hot-headed,
-                            impulsive and often have red hair, ashen skin or actual fire dancing atop their heads. Water genasi are calm and gentle, and may constantly have moist skin and wet hair, which may sometimes float in the air as if they were
-                            underwater. Earth genasi are stubborn and strong, and may appear to always be dirty or to be as shiny as a pearl. Finally, the moods of the air genasi shift constantly and with little warning, and they are typically accompanied
-                            with a light breeze following them. </p>
-                        <p>Due to how varied the genasi can be, you can play any class with them, however the recommended classes for each element are: </p>
-                        <ul type="disc">
-                            <li>Air – ranger, rogue, monk</li>
-                            <li>Earth – fighter, paladin, blood-hunter, barbarian</li>
-                            <li>Fire – wizard, warlock, sorcerer, fighter</li>
-                            <li>Water – cleric, druid, ranger</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Gnome:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Born of the elemental planes, the four subraces of genasi each represent an element, be it fire,
+						water, earth or air. Their personalities are affected by their elemental heritage, as are their
+						appearances. Fire genasi are hot-headed,
+						impulsive and often have red hair, ashen skin or actual fire dancing atop their heads. Water
+						genasi are calm and gentle, and may constantly have moist skin and wet hair, which may sometimes
+						float in the air as if they were
+						underwater. Earth genasi are stubborn and strong, and may appear to always be dirty or to be as
+						shiny as a pearl. Finally, the moods of the air genasi shift constantly and with little warning,
+						and they are typically accompanied
+						with a light breeze following them. </p>
+					<p>Due to how varied the genasi can be, you can play any class with them, however the recommended
+						classes for each element are: </p>
+					<ul type="disc">
+						<li>Air – ranger, rogue, monk</li>
+						<li>Earth – fighter, paladin, blood-hunter, barbarian</li>
+						<li>Fire – wizard, warlock, sorcerer, fighter</li>
+						<li>Water – cleric, druid, ranger</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Gnome:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Enthusiastic little tinkerers, a gnome could make anyone smile with their blatant love of life. Gnomes stand at just over 3 feet tall and rarely exceed 50 pounds of weight, meaning they are often lost in the crowds or thought of
-                            as ‘weak’. Their cunning more than makes up for their size, however, and gnomes are tied with humans for the most inventive, intelligent race, often being scholars, engineers, tricksters or jewellers. </p>
-                        <p>Gnomes hail from the forest, the caves or from the depths. Deep gnomes are larger and a lot more rugged than the surface gnomes, and tend to be dry and cynical. Either way, gnomes share a boost to intelligence across their three
-                            subraces, and as such are best suited to be wizards, artificers and rangers. This being said, gnomes are a greatly varied race and can reasonably play any class. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Goblin:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Enthusiastic little tinkerers, a gnome could make anyone smile with their blatant love of life.
+						Gnomes stand at just over 3 feet tall and rarely exceed 50 pounds of weight, meaning they are
+						often lost in the crowds or thought of
+						as ‘weak’. Their cunning more than makes up for their size, however, and gnomes are tied with
+						humans for the most inventive, intelligent race, often being scholars, engineers, tricksters or
+						jewellers. </p>
+					<p>Gnomes hail from the forest, the caves or from the depths. Deep gnomes are larger and a lot more
+						rugged than the surface gnomes, and tend to be dry and cynical. Either way, gnomes share a boost
+						to intelligence across their three
+						subraces, and as such are best suited to be wizards, artificers and rangers. This being said,
+						gnomes are a greatly varied race and can reasonably play any class. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Goblin:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Few trust goblins, and who can blame them? They’re cunning creatures that rely more on pack tactics than strength or agility, meaning that while one goblin is easy to pick off, a tribe can easily present a fierce danger. </p>
-                        <p>Often, goblins are shunned from civilisation, and left to their own roaming groups, meaning that playing a goblin character can be difficult, especially when trying to haggle, barter or make friends with people that will likely
-                            be disgusted by you. </p>
-                        <p>Being a goblin doesn’t necessarily make you evil, and the good goblins often have it the hardest as they’re cast out from both the anarchic, soulless culture of their kin as well as from the lawful, sophisticated cities of other
-                            races. A goblin must do twice as much to prove themselves to others. </p>
-                        <p>Goblins are nimble and hardy, with bonuses to dexterity and constitution. This means that goblins are best as rogues, fighters and rangers. When playing a goblin character, consult your DM to see how your character will fit into
-                            the overall world and story. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Goliath:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Few trust goblins, and who can blame them? They’re cunning creatures that rely more on pack
+						tactics than strength or agility, meaning that while one goblin is easy to pick off, a tribe can
+						easily present a fierce danger. </p>
+					<p>Often, goblins are shunned from civilisation, and left to their own roaming groups, meaning that
+						playing a goblin character can be difficult, especially when trying to haggle, barter or make
+						friends with people that will likely
+						be disgusted by you. </p>
+					<p>Being a goblin doesn’t necessarily make you evil, and the good goblins often have it the hardest
+						as they’re cast out from both the anarchic, soulless culture of their kin as well as from the
+						lawful, sophisticated cities of other
+						races. A goblin must do twice as much to prove themselves to others. </p>
+					<p>Goblins are nimble and hardy, with bonuses to dexterity and constitution. This means that goblins
+						are best as rogues, fighters and rangers. When playing a goblin character, consult your DM to
+						see how your character will fit into
+						the overall world and story. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Goliath:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Their tribes inhabiting the peaks of icy mountains, goliaths are reclusive and hardy giant-kin. With muscular frames and stonelike skin, they are fierce hunters and warriors, although reluctant to depart from their tribes. </p>
-                        <p>Honor and fair play is built into a goliath down to the bone. Those who cannot pull their weight get left behind and those who pick a fight with someone much weaker than them are cast out. Goliaths can often serve as enforcers,
-                            bounty hunters or soldiers for hire. </p>
-                        <p>Unlike other giant-kin, such as the Cyclops, goliaths aren’t simple brutes. While their tribal structure is uncomplicated and their way of life is that of any other animal, goliaths are just as intelligent or wise as any other
-                            humanoid, and can make their way perfectly fine in polite society, although their intimidating stature may be hard for some to bear being around. </p>
-                        <p>With their damage-absorbing abilities and bonuses to strength and constitution, goliaths work excellently as fighters, paladins and barbarians. Their natural acclimation to high altitudes and their athletic abilities also make
-                            them natural rangers. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Grung:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Their tribes inhabiting the peaks of icy mountains, goliaths are reclusive and hardy giant-kin.
+						With muscular frames and stonelike skin, they are fierce hunters and warriors, although
+						reluctant to depart from their tribes. </p>
+					<p>Honor and fair play is built into a goliath down to the bone. Those who cannot pull their weight
+						get left behind and those who pick a fight with someone much weaker than them are cast out.
+						Goliaths can often serve as enforcers,
+						bounty hunters or soldiers for hire. </p>
+					<p>Unlike other giant-kin, such as the Cyclops, goliaths aren’t simple brutes. While their tribal
+						structure is uncomplicated and their way of life is that of any other animal, goliaths are just
+						as intelligent or wise as any other
+						humanoid, and can make their way perfectly fine in polite society, although their intimidating
+						stature may be hard for some to bear being around. </p>
+					<p>With their damage-absorbing abilities and bonuses to strength and constitution, goliaths work
+						excellently as fighters, paladins and barbarians. Their natural acclimation to high altitudes
+						and their athletic abilities also make
+						them natural rangers. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Grung:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Standing between two and a half and three and a half feet tall, these stubby frog-people don’t present themselves as brave knights or noble paladins. In fact, the skin of a grung naturally secretes a poison that can seriously harm
-                            anyone who comes into contact with it. </p>
-                        <p>Living usually in small, isolated tribes, a grung must go to great lengths to prove themselves to those who view them as monstrosities or abominations. With their great jumps, ability to secrete poison from their skin, and their
-                            immunity to all venoms, fungi and poisons, grung can actually be a perfect ally. For this reason, once a grung has proven themselves, they may be able to easily climb the ranks of whatever organisation they belong to. </p>
-                        <p>While they are small creatures, the bonuses to dexterity and constitution, along with poison immunity, the ability to poison weapons and their powerful leaps, grungs can make excellent rogues, rangers, fighters and monks. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Half-Elf:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Standing between two and a half and three and a half feet tall, these stubby frog-people don’t
+						present themselves as brave knights or noble paladins. In fact, the skin of a grung naturally
+						secretes a poison that can seriously harm
+						anyone who comes into contact with it. </p>
+					<p>Living usually in small, isolated tribes, a grung must go to great lengths to prove themselves to
+						those who view them as monstrosities or abominations. With their great jumps, ability to secrete
+						poison from their skin, and their
+						immunity to all venoms, fungi and poisons, grung can actually be a perfect ally. For this
+						reason, once a grung has proven themselves, they may be able to easily climb the ranks of
+						whatever organisation they belong to. </p>
+					<p>While they are small creatures, the bonuses to dexterity and constitution, along with poison
+						immunity, the ability to poison weapons and their powerful leaps, grungs can make excellent
+						rogues, rangers, fighters and monks. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Half-Elf:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Split between two worlds; that of the aloof and calm elves and the short-lived, eager humans, the half-elf must choose one of these worlds to inhabit, or roam the lands as a free-agent. With lifespans of around 120 years and a
-                            charismatic, trustworthy visage, half-elves may often become nomadic ambassadors, diffusing petty feuds and preventing needless warfare. </p>
-                        <p>They carry the chaotic ideologies and connection to nature of their elven kin, coupled with the versatility and out-of-the-box thinking of their human ancestors. A half-elf, while they may feel lonely at first, likely will find
-                            themselves able to connect with anything and anyone, from simple goblins to noble aristocrats. </p>
-                        <p>Due to their massive customisability, half-elves can reasonably play any class. This being said, their boost to charisma and their likeable natures makes them natural bards, as well as allowing them to be powerful sorcerers, warlocks
-                            and paladins. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Half-Orc:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Split between two worlds; that of the aloof and calm elves and the short-lived, eager humans, the
+						half-elf must choose one of these worlds to inhabit, or roam the lands as a free-agent. With
+						lifespans of around 120 years and a
+						charismatic, trustworthy visage, half-elves may often become nomadic ambassadors, diffusing
+						petty feuds and preventing needless warfare. </p>
+					<p>They carry the chaotic ideologies and connection to nature of their elven kin, coupled with the
+						versatility and out-of-the-box thinking of their human ancestors. A half-elf, while they may
+						feel lonely at first, likely will find
+						themselves able to connect with anything and anyone, from simple goblins to noble aristocrats.
+					</p>
+					<p>Due to their massive customisability, half-elves can reasonably play any class. This being said,
+						their boost to charisma and their likeable natures makes them natural bards, as well as allowing
+						them to be powerful sorcerers, warlocks
+						and paladins. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Half-Orc:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>While half-elves have it bad, half-orcs live a nigh-impossible life. Considered ‘weaker’ than true orcs, they can rarely push their weight amongst their green, tusked brothers and they are often shunned by their human kin. </p>
-                        <p>That said, a half-orc combines the cunning and will of a human with the sheer brute strength of an orc, and so can make a fearsome, unbeatable fighter who is also able to quickly calm a room of hostages, or talk down an unstable
-                            enemy. </p>
-                        <p>While they may be slightly harder to play, when played well this race will shine, and half-orcs can quickly become the star of the party, being able to emerge unscathed from unimaginably fierce attacks or able to do immense damage
-                            on a critical hit. </p>
-                        <p>Due to their strength and constitution bonuses, Half Orcs play best as fighters, barbarians and paladins. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Halfling:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>While half-elves have it bad, half-orcs live a nigh-impossible life. Considered ‘weaker’ than
+						true orcs, they can rarely push their weight amongst their green, tusked brothers and they are
+						often shunned by their human kin. </p>
+					<p>That said, a half-orc combines the cunning and will of a human with the sheer brute strength of
+						an orc, and so can make a fearsome, unbeatable fighter who is also able to quickly calm a room
+						of hostages, or talk down an unstable
+						enemy. </p>
+					<p>While they may be slightly harder to play, when played well this race will shine, and half-orcs
+						can quickly become the star of the party, being able to emerge unscathed from unimaginably
+						fierce attacks or able to do immense damage
+						on a critical hit. </p>
+					<p>Due to their strength and constitution bonuses, Half Orcs play best as fighters, barbarians and
+						paladins. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Halfling:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Halflings usually strive for simple comfort and company, living their lives in simple villages cooking, playing and having fun. They’re very similar to gnomes, although they lack their feverish energy. </p>
-                        <p>Standing around 3 foot tall and roughly 40-50 pounds, halflings have carved their way through the world via diplomacy and charm rather than brute force. Their culture and history allows them to fit easily in with dwarves, elves,
-                            humans and any civilised race, and they are able to strike up a conversation with just about anybody. </p>
-                        <p>Halflings are naturally lucky creatures. In fact, as a halfling, you are able to reroll a dice whenever you roll a 1. </p>
-                        <p>As nimble, charming creatures, halflings get a bonus to dexterity and another bonus to either constitution or charisma. For this reason, rangers, rogues, bards and monks are great classes to play as a halfling. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Hobgoblin:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Halflings usually strive for simple comfort and company, living their lives in simple villages
+						cooking, playing and having fun. They’re very similar to gnomes, although they lack their
+						feverish energy. </p>
+					<p>Standing around 3 foot tall and roughly 40-50 pounds, halflings have carved their way through the
+						world via diplomacy and charm rather than brute force. Their culture and history allows them to
+						fit easily in with dwarves, elves,
+						humans and any civilised race, and they are able to strike up a conversation with just about
+						anybody. </p>
+					<p>Halflings are naturally lucky creatures. In fact, as a halfling, you are able to reroll a dice
+						whenever you roll a 1. </p>
+					<p>As nimble, charming creatures, halflings get a bonus to dexterity and another bonus to either
+						constitution or charisma. For this reason, rangers, rogues, bards and monks are great classes to
+						play as a halfling. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Hobgoblin:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Taller and smarter than their goblin brothers, hobgoblins combine their natural pack tactics with a strong physique and constant competition amongst each other. They stand at the height of a human (between 5 and 6 feet tall), yet
-                            sport the ugly goblin visage (although they look arguably better than bugbears or goblins). </p>
-                        <p>Creatures of pride and envy, hobgoblins obsess over appearing powerful, and gain a racial ability whereby they can get bonuses on their rolls if there are allies nearby. Sometimes their desire to ‘save face’ can result in a battle
-                            being won through sheer will, however sometimes it can result in a hobgoblin spitting in the wrong person’s face, and gaining a swift death. </p>
-                        <p>With bonuses to constitution and intelligence, the hobgoblin is the perfect wizard class, although they also function very well as fighters, rogues, artificers and rangers. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Human:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Taller and smarter than their goblin brothers, hobgoblins combine their natural pack tactics with
+						a strong physique and constant competition amongst each other. They stand at the height of a
+						human (between 5 and 6 feet tall), yet
+						sport the ugly goblin visage (although they look arguably better than bugbears or goblins). </p>
+					<p>Creatures of pride and envy, hobgoblins obsess over appearing powerful, and gain a racial ability
+						whereby they can get bonuses on their rolls if there are allies nearby. Sometimes their desire
+						to ‘save face’ can result in a battle
+						being won through sheer will, however sometimes it can result in a hobgoblin spitting in the
+						wrong person’s face, and gaining a swift death. </p>
+					<p>With bonuses to constitution and intelligence, the hobgoblin is the perfect wizard class,
+						although they also function very well as fighters, rogues, artificers and rangers. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Human:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>With a broad spectrum of physicalities, personalities and ambitions, humans are the most varied race in D&D. A human’s nature, will and desires are far more personal than collective, and they tend towards no particular alignment.
-                        </p>
-                        <p>Humans in D&D are the same as those in the real world. They stand between 5 and 6 feet tall, with the females generally being a little shorter. Humans can be scrawny or buff, they can be stupid or intelligent, they can be anything.
-                        </p>
-                        <p>Being a human gives you the ability to pick some skills to be proficient in, as well as boosting either ALL of your ability scores by 1, or choosing 2 to boost by 1 and getting an extra feat. Due to their variance, a human can
-                            play any class in D&D, from a dumb barbarian to a bookish wizard. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Kalashtar:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>With a broad spectrum of physicalities, personalities and ambitions, humans are the most varied
+						race in D&D. A human’s nature, will and desires are far more personal than collective, and they
+						tend towards no particular alignment.
+					</p>
+					<p>Humans in D&D are the same as those in the real world. They stand between 5 and 6 feet tall, with
+						the females generally being a little shorter. Humans can be scrawny or buff, they can be stupid
+						or intelligent, they can be anything.
+					</p>
+					<p>Being a human gives you the ability to pick some skills to be proficient in, as well as boosting
+						either ALL of your ability scores by 1, or choosing 2 to boost by 1 and getting an extra feat.
+						Due to their variance, a human can
+						play any class in D&D, from a dumb barbarian to a bookish wizard. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Kalashtar:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>The kalashtar are humans who have been touched by the plane of dreams. They have a connection to a spirit of the dream world, whose memories they draw from when they sleep (instead of dreaming). A kalashtar cannot connect directly
-                            with their spirit (called a ‘quori’), instead relying on instincts to guide them. </p>
-                        <p>The kalashtar are thought of as wise beings, and are able to telepathically communicate up to a distance of 60 feet, as well as being resistant to psychic damage. They stand a few inches taller than the average human and have slightly
-                            more angular features. </p>
-                        <p>Due to their boosts to wisdom and charisma, as well as their psychic powers, a kalashtar makes a great cleric, warlock or paladin, although the variance of the race means that it is easy to play any class with it. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Kenku:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>The kalashtar are humans who have been touched by the plane of dreams. They have a connection to
+						a spirit of the dream world, whose memories they draw from when they sleep (instead of
+						dreaming). A kalashtar cannot connect directly
+						with their spirit (called a ‘quori’), instead relying on instincts to guide them. </p>
+					<p>The kalashtar are thought of as wise beings, and are able to telepathically communicate up to a
+						distance of 60 feet, as well as being resistant to psychic damage. They stand a few inches
+						taller than the average human and have slightly
+						more angular features. </p>
+					<p>Due to their boosts to wisdom and charisma, as well as their psychic powers, a kalashtar makes a
+						great cleric, warlock or paladin, although the variance of the race means that it is easy to
+						play any class with it. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Kenku:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Stripped of their voices and wings by their creator, these birdlike humanoids are cursed to roam the world, only able to mimic instead of create. </p>
-                        <p>While a kenku has no voice of their own, they can mimic the voice of others perfectly and are expert forgers. Standing at around 5 feet tall, they are small and nimble. </p>
-                        <p>Due to their boosts to dexterity and wisdom, coupled with their abilities to forge handwriting and mimic voices, a kenku is the perfect rogue. That said, they also make great rangers and ranged fighters. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Lizardfolk:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Stripped of their voices and wings by their creator, these birdlike humanoids are cursed to roam
+						the world, only able to mimic instead of create. </p>
+					<p>While a kenku has no voice of their own, they can mimic the voice of others perfectly and are
+						expert forgers. Standing at around 5 feet tall, they are small and nimble. </p>
+					<p>Due to their boosts to dexterity and wisdom, coupled with their abilities to forge handwriting
+						and mimic voices, a kenku is the perfect rogue. That said, they also make great rangers and
+						ranged fighters. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Lizardfolk:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Alien minds, lizard bodies, a lizardfolk lacks any meaningful emotion, instead seeing the world in a calm, objective manner. For this reason, lizardfolk are often aligned neutrally and have no problem killing, although they may
-                            not seek it out. </p>
-                        <p>Lizardfolk are adjusted to both land and water, being able to swim easily and hold their breath for up to 15 minutes. They are also excellent artisans when it comes to corpses, and a lizardfolk can easily construct a dagger, club
-                            or blowgun from the bones of small creatures. They are also natural hunters with a deadly bite. </p>
-                        <p>With boosts to constitution and wisdom, lizardfolk make perfect rangers, fighters and clerics. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Loxodon:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Alien minds, lizard bodies, a lizardfolk lacks any meaningful emotion, instead seeing the world
+						in a calm, objective manner. For this reason, lizardfolk are often aligned neutrally and have no
+						problem killing, although they may
+						not seek it out. </p>
+					<p>Lizardfolk are adjusted to both land and water, being able to swim easily and hold their breath
+						for up to 15 minutes. They are also excellent artisans when it comes to corpses, and a
+						lizardfolk can easily construct a dagger, club
+						or blowgun from the bones of small creatures. They are also natural hunters with a deadly bite.
+					</p>
+					<p>With boosts to constitution and wisdom, lizardfolk make perfect rangers, fighters and clerics.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Loxodon:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Between 7 and 8 feet tall, these humanoid elephants are a sea of calm, combining clear-headedness and wisdom with a powerful, muscular build. Loxodons are able to carry items with their long trunks, as well as being naturally able
-                            to carry more due to their strong physique. </p>
-                        <p>Despite how massive they are, loxodons are natural artisans, working as woodworkers, carpenters, painters, masons or stoneworkers. A loxodon is likely to live to about 450 years, meaning that they have plenty of time to work on
-                            their craft. </p>
-                        <p>Loxodons are usually those who bring a party together, and ensure that they stay together. A loxodon can usually diffuse any argument and bring those who are verbally sparring towards a peaceful parlay. For this reason, loxodons
-                            would make great diplomats, if it were something they actually desired to do. </p>
-                        <p>Loxodons, with their natural serenity and boosts to constitution and wisdom, make powerful clerics, paladins and druids. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Minotaur:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Between 7 and 8 feet tall, these humanoid elephants are a sea of calm, combining clear-headedness
+						and wisdom with a powerful, muscular build. Loxodons are able to carry items with their long
+						trunks, as well as being naturally able
+						to carry more due to their strong physique. </p>
+					<p>Despite how massive they are, loxodons are natural artisans, working as woodworkers, carpenters,
+						painters, masons or stoneworkers. A loxodon is likely to live to about 450 years, meaning that
+						they have plenty of time to work on
+						their craft. </p>
+					<p>Loxodons are usually those who bring a party together, and ensure that they stay together. A
+						loxodon can usually diffuse any argument and bring those who are verbally sparring towards a
+						peaceful parlay. For this reason, loxodons
+						would make great diplomats, if it were something they actually desired to do. </p>
+					<p>Loxodons, with their natural serenity and boosts to constitution and wisdom, make powerful
+						clerics, paladins and druids. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Minotaur:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Few things are scarier than a minotaur. Humanoid bull-men, they stand with stocky builds and long, sharp horns. They are a battle-hungry race, and won’t hesitate to needlessly escalate a fight. </p>
-                        <p>A race of tradition, minotaurs consider themselves to live forever in their descendants, and for their ancestors to live forever through legends. For this reason, almost every minotaur name is drawn from a character from a past
-                            legend, and they often re-enact these stories of old when they are together in communities. </p>
-                        <p>While a minotaur isn’t always looking for a fight, it’s unlikely they’ll ever turn one down. Minotaurs are fearless creatures, with the musculature and martial-prowess to back up their bravado. A minotaur is a powerful addition
-                            to any team of mercenaries. </p>
-                        <p>Due to their natural horn-weapons, as well as their powerful charge and boosts to constitution and strength, minotaurs are best as fighters, barbarians, paladins and blood-hunters. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Orc:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Few things are scarier than a minotaur. Humanoid bull-men, they stand with stocky builds and
+						long, sharp horns. They are a battle-hungry race, and won’t hesitate to needlessly escalate a
+						fight. </p>
+					<p>A race of tradition, minotaurs consider themselves to live forever in their descendants, and for
+						their ancestors to live forever through legends. For this reason, almost every minotaur name is
+						drawn from a character from a past
+						legend, and they often re-enact these stories of old when they are together in communities. </p>
+					<p>While a minotaur isn’t always looking for a fight, it’s unlikely they’ll ever turn one down.
+						Minotaurs are fearless creatures, with the musculature and martial-prowess to back up their
+						bravado. A minotaur is a powerful addition
+						to any team of mercenaries. </p>
+					<p>Due to their natural horn-weapons, as well as their powerful charge and boosts to constitution
+						and strength, minotaurs are best as fighters, barbarians, paladins and blood-hunters. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Orc:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Aggressive and brutish, orcish culture is aligned around whoever is the most powerful at the time. For this reason, orc chieftains come and go, as they are usually killed quickly, either by an enemy they underestimated, or by their
-                            own people towards whom they behaved like tyrants. Orcs who wish to leave their tribal homelands face the tough task of gaining favour in a world that views them as simplistic barbarians. </p>
-                        <p>An orc’s abilities are naturally combat-oriented, meaning that they work best as fighters or barbarians. That said, however, playing an orcish wizard, ranger, sorcerer etc. can be a fun challenge and can lead to some interesting
-                            situations in a campaign. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Tabaxi:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Aggressive and brutish, orcish culture is aligned around whoever is the most powerful at the
+						time. For this reason, orc chieftains come and go, as they are usually killed quickly, either by
+						an enemy they underestimated, or by their
+						own people towards whom they behaved like tyrants. Orcs who wish to leave their tribal homelands
+						face the tough task of gaining favour in a world that views them as simplistic barbarians. </p>
+					<p>An orc’s abilities are naturally combat-oriented, meaning that they work best as fighters or
+						barbarians. That said, however, playing an orcish wizard, ranger, sorcerer etc. can be a fun
+						challenge and can lead to some interesting
+						situations in a campaign. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Tabaxi:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Curious felines, the tabaxi are dextrous creatures who wish simply to stay interested in the world, and learn all they can. They have a reputation for being simple thieves, but the truth is they steal only what interests them,
-                            and discard it when they have learnt what they need to. </p>
-                        <p>Tabaxi hold little care for material wealth, preferring influence, knowledge and understanding as goals. That said, tabaxi are known to hoard relics that they are interested in. </p>
-                        <p>Due to their bonuses to dexterity and charisma, along with being able to move with a burst of movement, tabaxi make great rogues, rangers and archery-based fighers. A tabaxi’s curious personality gives them great role-playing potential
-                            and they can be a very fun class to play. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Tiefling:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Curious felines, the tabaxi are dextrous creatures who wish simply to stay interested in the
+						world, and learn all they can. They have a reputation for being simple thieves, but the truth is
+						they steal only what interests them,
+						and discard it when they have learnt what they need to. </p>
+					<p>Tabaxi hold little care for material wealth, preferring influence, knowledge and understanding as
+						goals. That said, tabaxi are known to hoard relics that they are interested in. </p>
+					<p>Due to their bonuses to dexterity and charisma, along with being able to move with a burst of
+						movement, tabaxi make great rogues, rangers and archery-based fighers. A tabaxi’s curious
+						personality gives them great role-playing potential
+						and they can be a very fun class to play. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Tiefling:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Humans with infernal heritage, tieflings have four limbs, two eyes and a head of hair. In most respects, tieflings look as humanoid as any race, they are distinguished, however, by a few factors. Tieflings’ skin is coloured a certain
-                            way, it may be blue, red, purple or anything under the rainbow, they also sport horns on their head, and some may even have a long, spindly tail. </p>
-                        <p>While tieflings are greeted with stares and mistrust due to their devilish genes, their natural charisma often allows them to make friends fast. Tieflings also have a degree of ‘inbuilt’ magic, allowing them to perform simple tricks
-                            to entertain others. </p>
-                        <p>Due to their charisma and intelligence boosts, coupled with fire resistance and innate magic, tieflings are designed around playing a wizard, sorcerer, paladin, artificer or warlock. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Tortle:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Humans with infernal heritage, tieflings have four limbs, two eyes and a head of hair. In most
+						respects, tieflings look as humanoid as any race, they are distinguished, however, by a few
+						factors. Tieflings’ skin is coloured a certain
+						way, it may be blue, red, purple or anything under the rainbow, they also sport horns on their
+						head, and some may even have a long, spindly tail. </p>
+					<p>While tieflings are greeted with stares and mistrust due to their devilish genes, their natural
+						charisma often allows them to make friends fast. Tieflings also have a degree of ‘inbuilt’
+						magic, allowing them to perform simple tricks
+						to entertain others. </p>
+					<p>Due to their charisma and intelligence boosts, coupled with fire resistance and innate magic,
+						tieflings are designed around playing a wizard, sorcerer, paladin, artificer or warlock. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Tortle:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Nomads, eager to explore the wildest crevices of the world, these turtle-like humanoids are independent and strong of will from the moment they hatch from their eggs. They sport a hard shell that acts as natural armour (a tortle’s
-                            body shape makes wearing armour almost impossible). </p>
-                        <p>Tortles aren’t natural swimmers, but can hold their breath for up to 1 hour at a time as they walk on the sea floor. Their ability to retreat into their shells also allows them not to worry about shelter when in a survival situation,
-                            and can be used in a confrontation to protect them from attacks. </p>
-                        <p>Due to natural bonuses to strength, wisdom and to armour, tortles are best as clerics, blood-hunters, fighters or paladins. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Triton:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Nomads, eager to explore the wildest crevices of the world, these turtle-like humanoids are
+						independent and strong of will from the moment they hatch from their eggs. They sport a hard
+						shell that acts as natural armour (a tortle’s
+						body shape makes wearing armour almost impossible). </p>
+					<p>Tortles aren’t natural swimmers, but can hold their breath for up to 1 hour at a time as they
+						walk on the sea floor. Their ability to retreat into their shells also allows them not to worry
+						about shelter when in a survival situation,
+						and can be used in a confrontation to protect them from attacks. </p>
+					<p>Due to natural bonuses to strength, wisdom and to armour, tortles are best as clerics,
+						blood-hunters, fighters or paladins. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Triton:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>~5 foot tall people from the sea, tritons are amphibious warriors who are able to manipulate water at will, talk to sea animals and breathe both air and water. While tritons live in isolated settlements, they may rarely exit the
-                            water and visit the drier civilisations. When this happens, a triton adventurer is born. </p>
-                        <p>Tritons are driven by a sense of duty and responsibility, and are an honourable people. A triton will keep their word until they die, and will never break a promise. Aside from this tradition, they are as varied as can be, ranging
-                            from humourless to comedic, from arrogant to humble and from evil to good. </p>
-                        <p>A triton gains several water-based features coupled with boosts to constitution, strength and charisma. For this reason, tritons can reasonably play any class, but may work especially well as sorcerers, paladins, melee-focused
-                            warlocks or fighters. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Vedalken:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>~5 foot tall people from the sea, tritons are amphibious warriors who are able to manipulate
+						water at will, talk to sea animals and breathe both air and water. While tritons live in
+						isolated settlements, they may rarely exit the
+						water and visit the drier civilisations. When this happens, a triton adventurer is born. </p>
+					<p>Tritons are driven by a sense of duty and responsibility, and are an honourable people. A triton
+						will keep their word until they die, and will never break a promise. Aside from this tradition,
+						they are as varied as can be, ranging
+						from humourless to comedic, from arrogant to humble and from evil to good. </p>
+					<p>A triton gains several water-based features coupled with boosts to constitution, strength and
+						charisma. For this reason, tritons can reasonably play any class, but may work especially well
+						as sorcerers, paladins, melee-focused
+						warlocks or fighters. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Vedalken:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Although perfection is an unattainable goal, striving diligently for it can get you pretty close. The vedalken embrace this philosophy, delighting in their imperfections, as they provide an opportunity for improvement. A vedalken’s
-                            life is one of making mistakes, learning and doing it all over again. </p>
-                        <p>Standing between 6 and 6.5 feet tall with blue, hairless skin, broad, flat noses and no external ears, they are easily distinguished from other, more ‘normal’ races. The vedalken are tireless, precise and also partially amphibious.
-                        </p>
-                        <p>Playing a vedalken can be very interesting, as your character can serve as an inspiration to others to constantly improve themselves. </p>
-                        <p>Due to their boosts to intelligence and wisdom, vedalken are the perfect wizards, artificers or clerics, but they can also be played as rangers, fighters or really any other class. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-brown">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Warforged:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Although perfection is an unattainable goal, striving diligently for it can get you pretty close.
+						The vedalken embrace this philosophy, delighting in their imperfections, as they provide an
+						opportunity for improvement. A vedalken’s
+						life is one of making mistakes, learning and doing it all over again. </p>
+					<p>Standing between 6 and 6.5 feet tall with blue, hairless skin, broad, flat noses and no external
+						ears, they are easily distinguished from other, more ‘normal’ races. The vedalken are tireless,
+						precise and also partially amphibious.
+					</p>
+					<p>Playing a vedalken can be very interesting, as your character can serve as an inspiration to
+						others to constantly improve themselves. </p>
+					<p>Due to their boosts to intelligence and wisdom, vedalken are the perfect wizards, artificers or
+						clerics, but they can also be played as rangers, fighters or really any other class. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-brown">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Warforged:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>Bones of enchanted cords, skin of steel, wood or stone. The warforged were built as mechanical soldiers preceding a war of a time now past. Now, these automatons must carve their place into a world that wasn’t built for them. </p>
-                        <p>While they were built from magic, warforged still feel emotion and have personalities. Some are knights, some inventors and some simple artists. </p>
-                        <p>There are three variants of warforged, the lightfooted skirmisher, the heavy-handed juggernaught and the diverse and talented envoy. Envoys are particularly interesting as they have an inbuilt tool, such as a poisoner’s kit or
-                            navigator’s tools, which is built into them. </p>
-                        <p>Due to their natural armour, poison resistance and the reasons for their creation, warforged often become fighters, barbarians, paladins or warrior-clerics, however, envoys are as varied as humans, and so can be played as any class.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="description-container-grey">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase" style="margin-top: 20px">Yuan-Ti Pureblood:</h2>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>Bones of enchanted cords, skin of steel, wood or stone. The warforged were built as mechanical
+						soldiers preceding a war of a time now past. Now, these automatons must carve their place into a
+						world that wasn’t built for them. </p>
+					<p>While they were built from magic, warforged still feel emotion and have personalities. Some are
+						knights, some inventors and some simple artists. </p>
+					<p>There are three variants of warforged, the lightfooted skirmisher, the heavy-handed juggernaught
+						and the diverse and talented envoy. Envoys are particularly interesting as they have an inbuilt
+						tool, such as a poisoner’s kit or
+						navigator’s tools, which is built into them. </p>
+					<p>Due to their natural armour, poison resistance and the reasons for their creation, warforged
+						often become fighters, barbarians, paladins or warrior-clerics, however, envoys are as varied as
+						humans, and so can be played as any class.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid description-container-grey">
+		<div class="row">
+			<div class="col-12 page-header">
+				<h2 class="text-uppercase" style="margin-top: 20px">Yuan-Ti Pureblood:</h2>
+			</div>
+		</div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="description-text">
-                        <p>A little bit of a strange race, here. Yuan-Ti Purebloods are the result of the fusion of humans and snakes. They are typically evil, and live in serpentine temples as cultists dedicated to snake-based patrons or gods. </p>
-                        <p>Purebloods have resistance to magic and poison, and are able to innately cast poison spells. They can also speak to snakes as if they were humans. </p>
-                        <p>While yuan-ti are generally evil, those who escape the grasps of the cults they grew up in can become normal, decent people capable of living perfectly moral lives. </p>
-                        <p>Due to their innate magic & magic resistance, as well as their charisma and intelligence bonuses, yuan-ti purebloods are best served as wizards, warlocks, paladins, sorcerers or artificers. A warlock yuan-ti pureblood may use a
-                            snakelike patron, which may be the same as the cult they grew up in. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="description-text">
+					<p>A little bit of a strange race, here. Yuan-Ti Purebloods are the result of the fusion of humans
+						and snakes. They are typically evil, and live in serpentine temples as cultists dedicated to
+						snake-based patrons or gods. </p>
+					<p>Purebloods have resistance to magic and poison, and are able to innately cast poison spells. They
+						can also speak to snakes as if they were humans. </p>
+					<p>While yuan-ti are generally evil, those who escape the grasps of the cults they grew up in can
+						become normal, decent people capable of living perfectly moral lives. </p>
+					<p>Due to their innate magic & magic resistance, as well as their charisma and intelligence bonuses,
+						yuan-ti purebloods are best served as wizards, warlocks, paladins, sorcerers or artificers. A
+						warlock yuan-ti pureblood may use a
+						snakelike patron, which may be the same as the cult they grew up in. </p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- footer -->
-    <footer class="container-fluid">
-        <div class="row" id="footer-details">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">A website to help new players and <abbr title="Dungeon Masters">DMs</abbr> create characters and NPCs for their campaigns.</p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Disclaimer</h5>
-                <p class="inline-block ">The contents of this page are based off of the official content of <a href="https://company.wizards.com/" target="_blank">Wizards of the Coast</a>. this site is designed only to guide players and DMs in character/world creation and gameplay.</p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Any suggestions?</h5>
-                <p>Email <a href="mailto:#">our email</a>.</p>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- footer -->
+	<footer class="container-fluid">
+		<div class="row" id="footer-details">
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">About</h5>
+				<p class="inline-block">A website to help new players and <abbr title="Dungeon Masters">DMs</abbr>
+					create characters and NPCs for their campaigns.</p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Disclaimer</h5>
+				<p class="inline-block ">The contents of this page are based off of the official content of <a
+						href="https://company.wizards.com/" target="_blank">Wizards of the Coast</a>. this site is
+					designed only to guide players and DMs in character/world creation and gameplay.</p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Any suggestions?</h5>
+				<p>Email <a href="mailto:#">our email</a>.</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
 
 </body>
 
