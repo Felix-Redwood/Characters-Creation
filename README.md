@@ -1,11 +1,10 @@
-Characters & Creation:
-======================
+# Characters & Creation:
 
 Characters & Creation (C&C) is a website seeking to provide simple explanations of the features of the classes, races and feats found in D&D 5th edition. By providing qualitative descriptions of these features, instead of number-heavy and rule-heavy descriptions, C&C seeks to be able to guide beginner players into deciding what class and race they wish to play in their D&D games, as well as helping beginner dungeon masters to understand the role that each race and class plays in D&D.
 
 In this README, there is a list of requirements and recommendations for submitting homebrew content, which will be added to the site in future. Submitting homebrew content is recommended only for more experienced players or dungeon masters, and so uses language that might not be known to newer players. 
 
-UX:
+## UX:
 ---
 
 This website is primarily designed for those who are beginners when it comes to D&D or role-playing games in general, however it is also designed to benefit other users, such as:
@@ -27,10 +26,10 @@ As you can see, what this site’s visitors desire is for the descriptions of ea
 
 [Roughly 60% of the population are visual thinkers in one way or another](https://books.google.de/books?hl=de&id=LXEezzccwcoC&q=Visual+thinking#v=onepage&q=Visual%20thinking&f=true). This means that the descriptions of the races, classes and feats of D&D must be visually descriptive, to help newer players especially to visualise what their characters might look like or do.
 
-Features:
----------
+## Features:
+---
 
-Existing features:
+### Existing features:
 
 * Description of races & classes for D&D with recommendations of which races and classes to pair together.
 * List of all Feats from the PHB (the player’s handbook, the official basic source material for 5th edition D&D).
@@ -39,7 +38,7 @@ Existing features:
 * Meta tags in the <head> element for the purposes of SEO.
 * Favicon used to increase user experience and help the user distinguish the tab that C&C is being run on.
 
-Features that will be implemented in future:
+### Features that will be implemented in future:
 
 * Contents menu and collapsible descriptions for the races, classes and feats pages, as currently they are hard to navigate.
 * Pictures of each race and class next to their descriptions, to aid visualisation.
@@ -47,7 +46,7 @@ Features that will be implemented in future:
 * A page of homebrew (player created) content.
 * A page listing all backgrounds from the PHB.
 
-Technologies used:
+### Technologies used:
 
 * [W3schools](https://www.w3schools.com/) was used to find hexadecimal colours to use for the site, as well as assisting with debugging code.
 
@@ -69,8 +68,8 @@ Technologies used:
 
 * [Logomakr](https://logomakr.com/) was used to design the C&C logo.
 
-Testing:
---------
+## Testing:
+---
 
 The main UX to focus on with the site is readability, ease of use and interconnectedness. For this reason, I ran three tests:
 
@@ -99,8 +98,10 @@ Test 3 – ensuring easy navigation:
 * From here, attempt to access the ‘Races’ page. This can be done by clicking on the ‘Races’ link in the dropdown menu in the header.
 * From here, attempt to navigate back to the homepage. This can be done by clicking the logo in the header, or by clicking the ‘Home’ link in the dropdown menu in the header, which is separated from the other links by a divider.
 
-Homebrew submission requirements:
----------------------------------
+
+
+## Homebrew submission requirements:
+---
 
 Homebrew submissions must:
 
@@ -120,8 +121,8 @@ It is recommended that homebrew submissions:
 * Do not have a hit die higher than a D12 or lower than a D6.
 * Do not grant abilities that are exclusive to certain PHB classes (such as the barbarian’s rage or the druid’s wild shape), as this will invalidate those PHB classes.
 
-Deployment:
------------
+## Deployment:
+---
 
 This project is hosted on github pages. At the time of the submission of this README (20th of December, 2019), the deployed version and the development version are the same, with the same code and the same README. If this changes in the future, this README will be updated.
 
@@ -129,8 +130,8 @@ The code can be run locally either by visiting the website directly through the 
 
 An important fact about the deployment of this project is that this repository is NOT the original repository for this project. The original repository has been deleted, as it contained commits that contained sensitive information. This new repository is a clone of the old one, and will contain all future commits for the project.
 
-FAQ:
-----
+## FAQ:
+---
 
 Q: Will you keep working on the site?  
 A: Yes, there are a lot of additions to the site I plan to make.
@@ -138,8 +139,8 @@ A: Yes, there are a lot of additions to the site I plan to make.
 Q: Why don’t you have proper statistics or descriptions of rules, etc?  
 A: This site is generally designed for newer players or DMs, and focuses more on the descriptions, aesthetics and roles of the different races and classes instead of their mechanics or statistics. This is so that newer players/DMs don’t get overwhelmed by the amount of information thrown their way.
 
-Credits:
---------
+## Credits:
+---
 
 Content:
 
