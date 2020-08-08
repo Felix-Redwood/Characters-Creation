@@ -98,7 +98,16 @@ Test 3 – ensuring easy navigation:
 * From here, attempt to access the ‘Races’ page. This can be done by clicking on the ‘Races’ link in the dropdown menu in the header.
 * From here, attempt to navigate back to the homepage. This can be done by clicking the logo in the header, or by clicking the ‘Home’ link in the dropdown menu in the header, which is separated from the other links by a divider.
 
+### Bug 1 - Unwanted whitespace to the right of the page:
 
+In earlier commits, when the site's homepage would load, there would be a small bar of empty whitespace to the right of the page. This bar would show up in the 'classes', 'feats' and 'races' pages. 
+To attempt to debug this, I rendered the site on Github pages and used Google Developer Tools to see if there were any HTML elements occupying the whitespace. Upon inspection, I found that there were 
+two issues in play:
+
+1. There was a 'margin-left' attribute of 20px on the 'page-header' class (The titles of each feat/class/race used the 'page-header' class), which was pushing the element off to the side and generating whitespace.
+2. The div elements with the 'row' class were not placed *directly* under divs with the 'container-fluid' class. Bootstrap requires that rows be direct children of containers.
+
+To fix this, I first removed the 'margin-left' attribute of the 'page-header' class in the css file. Next, I manually placed all 'row' divs directly under a 'container-fluid' div. This solved the whitespace problem.
 
 ## Homebrew submission requirements:
 ---
