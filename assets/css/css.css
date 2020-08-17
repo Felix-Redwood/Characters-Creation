@@ -72,19 +72,7 @@ body {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.navbar .navbar-toggler {
-    border: 0;
-}
-
 .navbar-brand {
-    font-weight: bold;
-}
-
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
-
-.navbar-nav {
     font-weight: bold;
 }
 
@@ -116,6 +104,10 @@ body {
 
 .dropdown-menu {
     list-style: none;
+}
+
+.dropdown-item {
+    font-weight: bold;
 }
 
 .top-nav {
