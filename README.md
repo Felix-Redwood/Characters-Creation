@@ -109,6 +109,26 @@ two issues in play:
 
 To fix this, I first removed the 'margin-left' attribute of the 'page-header' class in the css file. Next, I manually placed all 'row' divs directly under a 'container-fluid' div. This solved the whitespace problem.
 
+### Bug 2 - Dropdown menu appearing twice on mobile devices:
+
+In earlier versions of this project on mobile screens, when the dropdown menu icon in the navbar was clicked, it would reveal a second dropdown menu icon, instead of the actual dropdown menu. When this second icon was 
+clicked, the dropdown menu would finally appear.  
+
+The issue causing this bug lies in misuse of Bootstrap's 'dropdown' attribute. Dropdowns in bootstrap work by a \<button> element which, when clicked, triggers a dropdown \<div> element. The div must have an aria-labelledby 
+attribute with a value equal to the id of the corresponding button element.  
+
+Instead, in the project, the button had a 'data-target' attribute, which corresponded with the id of a child \<div> element. Within this div element was an \<a> element with an id that corresponded to the final \<div> which 
+contained the actual dropdown menu items. What this meant was:
+
+1. When the button element was clicked, it would open a dropdown menu containing the first div (div1)
+2. Div1 contained the 'a' element
+3. When the 'a' element was clicked, it would open up the dropdown menu containing the second div (div2)
+4. Div2 contained the dropdown menu items (such as links to each page)
+
+In order to fix this bug, I removed the 'a' element and div1, and moved div2 to be directly under the button element. I also changed the 'data-target' attribute to the 'id' attribute on the button.  
+
+Finally, I changed the id of the button and the aria-labelledby attribute on the div in order for them to correspond to each other. This succesfully removed the duplicate dropdown bug.  
+
 ## Homebrew submission requirements:
 ---
 
